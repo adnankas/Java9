@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ushtrimet 9</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="header">
+    <img id="ubtlogo" class="headerPhoto" src="../../java 2/Code/UBT-LOGO.png" alt="UBT Logo" />
+    <ul class="headerList">
+      <li id="item">Home</li>
+      <li id="item">About us</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="link-container">
+      <a id="firstA" href="#">Login</a>
+      <a href="#">Register</a>
+    </div>
+    <form id="mainForm" action="index.html" onsubmit="return validate(event)">
+      <div class="register forms form-style">
+        <label for="">Name:</label>
+        <input type="text" class="input" placeholder="username..." id="name" />
+        <div class="error" id="e1"></div>
+        <div class="valid" id="v1"></div>
+        <label for="">Email:</label>
+        <input type="text" class="input" placeholder="email..." id="email"/>
+        <div class="error" id="e2"></div>
+        <div class="valid" id="v2"></div>
+        <label for="">Password:</label>
+        <input type="text" class="input" placeholder="password..." id="password"/>
+        <div class="error" id="e3"></div>
+        <div class="valid" id="v3"></div>
+        <!-- <label for="">Confirm Password:</label>
+        <input type="text" class="input" placeholder="confirm password..." id="password1"/>
+        <div class="error" id="e4"></div>
+        <div class="valid" id="v4"></div> -->
+        <label for="">Birthday:</label>
+        <input type="text" class="input" placeholder="dd/mm/yyyy" id="bday"/>
+        <div class="error" id="e5"></div>
+        <div class="valid" id="v5"></div>
+        <input id="submit" type="submit" class="input submit" value="Login" onclick="validate(event)" />
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <i>&copy;</i>
+
+    <h3>UBT - Maj 2020 <br> <a href="https://github.com/adnankas/Java9.git">Linku per GitHub</a></h3>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

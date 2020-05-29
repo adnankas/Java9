@@ -1,0 +1,37 @@
+Detyre:
+
+1.     Regex për emer shqip, minimalisht 3 karaktere
+
+       a.      “Arbër” – e pranueshme
+
+       b.     “ Arbër” – e papranueshme
+
+       c.      “ Arbër ” – e papranueshme
+
+       d.     Tekst me ndonje numër apo karakter special – e papranueshme
+
+2.     Regex për email
+
+       a.      “arber.kadriu@ubt-uni.net” – e pranueshme
+
+       b.     “something_6-@ubt-uni.net” – e pranueshme
+
+       c.      “ test@test@tes.com.sometest” – e papranueshme
+
+3.     Regex për password
+
+       a.      Minimum 6 karaktere
+
+       b.     Duhet minimalisht një karakter i lartë ABC
+
+       c.      Duhet minimalisht një karakter i ulet abc
+
+       d.     Duhet të kete një karakter special
+
+4.     Regex për datën e lindjes:
+
+       a.       mm-dd-yyyy ose mm/dd/yyyy ose mm.dd.yyyy – e pranueshme
+
+       b.     dd-mm-yyyy ose dd/mm/yyyy ose dd.mm.yyyy – e pranueshme
+
+       c.      mm dd yyyy ose mmddyyyy – e papranueshme
